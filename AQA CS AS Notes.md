@@ -17,21 +17,21 @@ N={0,1,2,3...}
 
 ```
 
-+ integer numbers
-+ rational numbers
-+ irrational numbers
-+ real numbers
-+ ordinal numbers
++ Integer numbers: Whole numbers (e.g. 1, 7, 145)
++ Rational numbers: Numbers that can be expressed as fractions (e.g. 0.5, 0.4, 0.125, 3.6, 1.333333...)
++ Irrational numbers: Can't be expressed in fractions
++ Real numbers
++ Ordinal numbers
 
 ### 3.5.2 Number bases
-+ base 2: those are binary numbers. example: 1010<sub>2</sub>. See [this site](https://bournetocode.com/projects/AQA_AS_Theory/pages/3-5.html) for more infomation
-+ base 10
-+ base 16
-+ conversion between denary, binary and hex
++ Base 2: those are binary numbers. example: 1010<sub>2</sub>. See [this site](https://bournetocode.com/projects/AQA_AS_Theory/pages/3-5.html) for more infomation
++ Base 10
++ Base 16
++ Conversion between denary, binary and hex
 
 ### 3.5.3 Units of information
-+ bit and bytes
-+ units of kilo, kilbi, mega, mebi, giga, gebi, tera, tebi
++ Bit and bytes
++ Units of kilo, kilbi, mega, mebi, giga, gebi, tera, tebi
 
 ### 3.5.4 Binary number system
 
@@ -39,7 +39,7 @@ N={0,1,2,3...}
 + Unsigned binary: 100010 (34)
 + Binary arithemtics is comparable to decimal, with the fact that only 2 different values exist kept in mind.
 + Unsigned arithmetics: 100010+011001=111011
-+ Signed Arithemetics:
++ Signed arithemetics: (to be understood)
 + Signed binary in 2's compliment: 11011110 (-34)
 + Fixed point fractional numbers: 1110.0010 (14.125 in 8bit)
 
