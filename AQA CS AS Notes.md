@@ -31,12 +31,15 @@ N={0,1,2,3...}
 
 ### 3.5.3 Units of information
 + bit and bytes
-+ units of kilo, kilbi etc
++ units of kilo, kilbi, mega, mebi, giga, gebi, tera, tebi
 
 ### 3.5.4 Binary number system
 
++ The rightmost value represents whether or not the number is negative. 0 = Positive, 1 = Negative
 + Unsigned binary: 100010 (34)
++ Binary arithemtics is comparable to decimal, with the fact that only 2 different values exist kept in mind.
 + Unsigned arithmetics: 100010+011001=111011
++ Signed Arithemetics:
 + Signed binary in 2's compliment: 11011110 (-34)
 + Fixed point fractional numbers: 1110.0010 (14.125 in 8bit)
 
