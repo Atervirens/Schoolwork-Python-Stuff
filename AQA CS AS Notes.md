@@ -46,9 +46,13 @@ N={0,1,2,3...}
 ### 3.5.5 Information encoding system
 
 #### Character form of a decimal digit
-+Basically, in ASCII and Unicode, numbers are coded as characters by default. As result, without the proper programming, 5+34=534.
++ Basically, in ASCII and Unicode, numbers are coded as characters by default. As result, without the proper programming, 5+34=534.
 #### ASCII
-+Stands for American Standard Code of Information Interchange.
++ Stands for American Standard Code of Information Interchange.
++ Originally used 7 bits, but updated to use 8 bits in 1980.
++ Values were assigned to both uppercase and lowercase letters as well as non-printing control characters and more.
++ Only worked for Latin languages.
++ Decimal numbers was not represented by their equivalent in binary. (e.g. 0110100 will print '4', but has an actual decimal value of 52.)
 #### Error checking and correction
 
 ### 3.5.6 Representing images, sound and other data
