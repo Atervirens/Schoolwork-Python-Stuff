@@ -19,9 +19,9 @@ N={0,1,2,3...}
 
 + Integer numbers: Whole numbers (e.g. 1, 7, 145)
 + Rational numbers: Numbers that can be expressed as fractions (e.g. 0.5, 0.4, 0.125, 3.6, 1.333333...)
-+ Irrational numbers: Can't be expressed in fractions
-+ Real numbers
-+ Ordinal numbers
++ Irrational numbers: Can't be expressed in fractions (e.g. π, √2, √8)
++ Real numbers: Numbers that are rational, irrational or natural. Numbers that aren't imaginary in other words.
++ Ordinal numbers: Numbers used to indicate the position of a value in a sequence. (e.g. 1st, 3rd, 7th, 32nd)
 
 ### 3.5.2 Number bases
 + Base 2: those are binary numbers. example: 1010<sub>2</sub>. See [this site](https://bournetocode.com/projects/AQA_AS_Theory/pages/3-5.html) for more infomation
@@ -46,7 +46,9 @@ N={0,1,2,3...}
 ### 3.5.5 Information encoding system
 
 #### Character form of a decimal digit
-#### ASCII and Unicode
++Basically, in ASCII and Unicode, numbers are coded as characters by default. As result, without the proper programming, 5+34=534.
+#### ASCII
++Stands for American Standard Code of Information Interchange.
 #### Error checking and correction
 
 ### 3.5.6 Representing images, sound and other data
