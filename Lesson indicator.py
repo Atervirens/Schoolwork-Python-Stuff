@@ -48,13 +48,13 @@ while True: #insert programming below Try
             elif day=="Thursday":
                 if period==1:
                     print("Your lesson is maths, room M6.")
-                if period==2:
+                elif period==2:
                     print("Your lesson is maths, room M7.")
-                if period==3:
+                elif period==3:
                     print("Your lesson is computing, room Co2.")
-                if period==4:
+                elif period==4:
                     print("You have a free period.")
-                if period==5:
+                elif period==5:
                     print("Your lesson is physics, room S10.")
                 else:
                     print("Error, invalid input was inputted.")
@@ -143,15 +143,15 @@ while True: #insert programming below Try
                 print("Error, invalid input was inputted.")
         else:
             print("Error, invalid input was inputted.")
-            
+                
     except ValueError: #Checks whether or not inputs are valid
         print("That isn't a valid input")
 
-    carry=input("Reset? yes/no")
+    carry=input("Reset? yes/no ")
 
     if carry=="yes": #works with any string value
         carryon=True
     else:
-        print("Insert termination message")
+        print("Program terminated.")
         carryon=False
         break #completely terminates program if termination option is chosen
