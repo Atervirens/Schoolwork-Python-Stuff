@@ -60,7 +60,8 @@ N={0,1,2,3...}
 #### Error checking and correction
 ## Parity Bit:
 + Simplest form of error checking.
-+ Works by the computer being sent
++ Works by both computers agreeing on whether the data has an odd or even parity.
++ A parity bit is added to the data to fit the parity. (e.g. Even parity, 011001010001 has an odd parity, therefore, the parity bit is '1'.)
 
 ### 3.5.6 Representing images, sound and other data
 
