@@ -47,6 +47,7 @@ N={0,1,2,3...}
 
 #### Character form of a decimal digit
 + Basically, in ASCII and Unicode, numbers are coded as characters by default. As result, without the proper programming, 5+34=534.
+
 #### ASCII
 + Stands for American Standard Code of Information Interchange.
 + Originally used 7 bits, but updated to use 8 bits in 1980.
@@ -58,7 +59,8 @@ N={0,1,2,3...}
 + Comes in 8, 16 and 32 bit forms.
 + Created to allow all main languages and lesser known languages to be typed onto the computer.
 #### Error checking and correction
-## Parity Bit:
+
+##### Parity Bit:
 + Simplest form of error checking.
 + Works by both computers agreeing on whether the data has an odd or even parity.
 + A parity bit is added to the data to fit the parity. (e.g. Even parity, 011001010001 has an odd parity, therefore, the parity bit is '1'.)
