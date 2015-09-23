@@ -53,6 +53,9 @@ N={0,1,2,3...}
 + Values were assigned to both uppercase and lowercase letters as well as non-printing control characters and more.
 + Only worked for Latin languages.
 + Decimal numbers was not represented by their equivalent in binary. (e.g. 0110100 will print '4', but has an actual decimal value of 52.)
++ Unicode is the current encoding standard for giving every relevant character a binary value.
++ Comes in 8, 16 and 32 bit forms.
++ Created to 
 #### Error checking and correction
 
 ### 3.5.6 Representing images, sound and other data
