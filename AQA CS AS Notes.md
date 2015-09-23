@@ -55,7 +55,7 @@ N={0,1,2,3...}
 + Decimal numbers was not represented by their equivalent in binary. (e.g. 0110100 will print '4', but has an actual decimal value of 52.)
 + Unicode is the current encoding standard for giving every relevant character a binary value.
 + Comes in 8, 16 and 32 bit forms.
-+ Created to 
++ Created to allow
 #### Error checking and correction
 
 ### 3.5.6 Representing images, sound and other data
