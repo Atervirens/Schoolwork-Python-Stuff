@@ -54,10 +54,12 @@ N={0,1,2,3...}
 + Values were assigned to both uppercase and lowercase letters as well as non-printing control characters and more.
 + Only worked for Latin languages.
 + Decimal numbers was not represented by their equivalent in binary. (e.g. 0110100 will print '4', but has an actual decimal value of 52.)
+
 #### Unicode
 + Unicode is the current encoding standard for giving every relevant character a binary value.
 + Comes in 8, 16 and 32 bit forms.
 + Created to allow all main languages and lesser known languages to be typed onto the computer.
+
 #### Error checking and correction
 
 ##### Parity Bit:
@@ -68,6 +70,16 @@ N={0,1,2,3...}
 ##### Majority Voting:
 + Each bit in a piece of data is sent three times.
 + The receiving computer decides whether a bit is a 0 or 1, depending on which is the majority in each set. (e.g. 001=0, 111=1, 110=1) 
+
+##### Check Sum:
++ Data is divided into bytes and an algorithm is applied to generate the check sum value.
++ Receiving computer receives the value and repeats the algorithm on the bytes it's received. If the resultant value is identical to the check sum value, the data received is supposedly correct.
++ E.g. 0001+0010+0011+0001=7. If the receiving computer also generates a value of 7, the data is supposdely uncorrupt.
+
+##### Check Digit:
++ Works by adding an extra digit in front of or before the whole data value.
+
++ Note, these error checkers are not full proof.
 
 ### 3.5.6 Representing images, sound and other data
 
