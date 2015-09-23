@@ -78,6 +78,7 @@ N={0,1,2,3...}
 
 ##### Check Digit:
 + Works by adding an extra digit in front of or before the whole data value.
++ An example of check digit is barcodes, both Universal Product Code (UPC) and International Standard Book Number (ISBN).
 
 + Note, these error checkers are not full proof.
 
