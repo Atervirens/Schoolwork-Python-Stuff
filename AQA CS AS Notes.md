@@ -65,6 +65,10 @@ N={0,1,2,3...}
 + Works by both computers agreeing on whether the data has an odd or even parity.
 + A parity bit is added to the data to fit the parity. (e.g. Even parity, 011001010001 has an odd parity, therefore, the parity bit is '1'.)
 
+##### Majority Voting:
++ Each bit in a piece of data is sent three times.
++ The receiving computer decides whether a bit is a 0 or 1, depending on which is the majority in each set. (e.g. 001=0, 111=1, 110=1) 
+
 ### 3.5.6 Representing images, sound and other data
 
 #### Bit patterns, images,  sound  and other  data
