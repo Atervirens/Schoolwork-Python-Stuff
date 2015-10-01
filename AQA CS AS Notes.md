@@ -85,7 +85,6 @@ N={0,1,2,3...}
 ### 3.5.6 Representing images, sound and other data
 
 #### Bit patterns, images,  sound  and other  data
-+ 
 
 #### Analogue and digital
 + Analogue data have continuous values with an infinite number potential values in between. (e.g. sound)
