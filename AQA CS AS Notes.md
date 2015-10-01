@@ -85,10 +85,24 @@ N={0,1,2,3...}
 ### 3.5.6 Representing images, sound and other data
 
 #### Bit patterns, images,  sound  and other  data
++ 
 #### Analogue and digital
 #### Analogue and digital conversion
 #### Bitmapped graphics
 #### Digital representation of sound
 #### Musical Instrument Digital Interface (MIDI)
++ Audio file type that works by generating instructions on producing the sound, instead of recording the sound itself (MIDI event messages).
++ Primarily used for music.
++ As a result, it has a smaller file size and smaller load times.
++ Completely editable.
 #### Data compression
 #### Encryption
++ Original message/ data is called plaintext.
++ Encrypted data is called cipher text.
++ The method is called a cipher.
++ The secret code for encrypting/decrypting data is called the key.
++ Only unbreakable cipher is the Vernam Cipher.
+
+##### Vernam Cipher
++ Works by using a true random one-time key (aka one-time pad) and applying XOR to the plaintext.
++ XOR generates datum, based on whether the plaintext and the key datum is identical or not. (e.g. 1+1=0, 0+0=0, 1+0=1.)
