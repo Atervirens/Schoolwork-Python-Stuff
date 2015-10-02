@@ -85,17 +85,35 @@ N={0,1,2,3...}
 ### 3.5.6 Representing images, sound and other data
 
 #### Bit patterns, images,  sound  and other  data
-+ 
+
 #### Analogue and digital
++ Analogue data have continuous values with an infinite number potential values in between. (e.g. sound)
++ Digital data is desicrete and finite in size. (e.g. Binary data.)
+
 #### Analogue and digital conversion
++ Either form of data can be converted into the other, by varying means.
++ An example of analogue to digital data would be recording sound. One way this is done is with sample resolution.
++ Digital data converted to analogue will never sound quite the same as the original analogue data. This is because the conversion involves making 'guesses' in order to be as accurate as possible.
+
 #### Bitmapped graphics
+
 #### Digital representation of sound
++ Sample resolution works by assigning a digital value to a specific datum. Higher sample rate/frequency equals better sound resolution.
++ They Nyquist/Sampling Theorem states that the sampling frequncy should be at least twice that of the highest recorded frequency of sound in order to accurately resemble the sound data.
++ A greater sample rate equals larger file sizes.
++ The standard sample frequncy is 44.1kHz. 
++ File size(in bits)= sample frequency x sample resolution x sound length (e.g. (4.5 mins x 60 = 150s) x 16 bit resolution x 441000 Hz = 1905120000 b = 23.6 MB)
+
 #### Musical Instrument Digital Interface (MIDI)
 + Audio file type that works by generating instructions on producing the sound, instead of recording the sound itself (MIDI event messages).
 + Primarily used for music.
 + As a result, it has a smaller file size and smaller load times.
 + Completely editable.
+
 #### Data compression
++ Used to significantly reduce file size to much more manageable levels and for quicker file transfer.
++ Exists as both lossy and lossless compression.
+
 #### Encryption
 + Original message/ data is called plaintext.
 + Encrypted data is called cipher text.
