@@ -9,21 +9,22 @@ def checkinput(): #Function to check input for validity
             return deci
         else:
             print("encrypt, decrypt and end only.")
-def encrypt():
+def encrypt(): #encryption function
+
     plain=input("Input message (don't capitalize or punctuate): ")
 
     citext=''
 
-    for hold in plain: #caesar encryption program
+    for hold in plain: 
         pos=alphabet.index(hold)
         citext=citext+shifted[pos]
     print("Your message is now '", citext, "'.")
-def dencrypt():
+def dencrypt(): #decryption function
     citext=input("Input message (don't capitalize or punctuate): ")
 
     plain=''
 
-    for pi in citext: #decryption program
+    for pi in citext:
         hos=shifted.index(pi)
         plain=plain+alphabet[hos]
     print("Your message is now '", plain, "'.")
