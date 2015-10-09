@@ -43,7 +43,7 @@ def keysizer(): #asks for keysizes and confirms that it's an integet between or 
                 return inp
         except ValueError:
             print("That's not a number")
-deci=input("Encrypt, decrypt or end? (encrypt/decrypt/end) ")
+deci=checkinput()
 carryon=True
 while carryon:
     
