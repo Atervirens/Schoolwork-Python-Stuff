@@ -1,5 +1,5 @@
-alphabet='abcdefghijklmnopqrstuvwxyz '
-shifted='defghijklmnopqrstuvwxyz abc'
+alphabet='abcdefghijklmnopqrstuvwxyz'
+
 alinput=['encrypt', 'decrypt', 'end']
 
 def checkinput(): #Function to check input for validity
@@ -9,7 +9,7 @@ def checkinput(): #Function to check input for validity
             return deci
         else:
             print("encrypt, decrypt and end only.")
-def encrypt(): #encryption function
+def encrypt(key): #encryption function
 
     plain=input("Input message (don't capitalize or punctuate): ")
 
@@ -17,23 +17,40 @@ def encrypt(): #encryption function
 
     for hold in plain: 
         pos=alphabet.index(hold)
-        citext=citext+shifted[pos]
+        pos+=key
+
+        if hold in alphabet:
+            if pos>=26:
+                pos=pos%26
+            citext+=alphabet[pos]
+        else:
+            citext+=hold
+            
     print("Your message is now '", citext, "'.")
-def dencrypt(): #decryption function
+
+    
+def dencrypt(key): #decryption function
     citext=input("Input message (don't capitalize or punctuate): ")
 
     plain=''
 
     for pi in citext:
-        hos=shifted.index(pi)
-        plain=plain+alphabet[hos]
+        hos=alphabet.index(pi)
+        hos-=key
+        if pi in alphabet:
+            if hos>=26:
+                hos=hos%26
+            plain+=alphabet[hos]
+        else:
+            plain+=pi
+        [hos]
     print("Your message is now '", plain, "'.")
 keysize=26
 def keysizer(): #asks for keysizes and confirms that it's an integet between or equal to 1-26
     while True:
         inp=input("Input input between 1 and 26: ")
         try:
-            inp=float(inp)
+            inp=int(inp)
             if inp>26 or inp<1:
                 
               
@@ -43,19 +60,21 @@ def keysizer(): #asks for keysizes and confirms that it's an integet between or 
                 return inp
         except ValueError:
             print("That's not a number")
+            
 deci=checkinput()
 carryon=True
 while carryon:
     
     if deci=="encrypt":
         
-
-        plain=encrypt()
+        key=keysizer()
+        plain=encrypt(key)
         deci=checkinput()
         
     if deci=="decrypt":
         
-        citext=dencrypt()
+        key=keysizer()
+        citext=dencrypt(key)
         deci=checkinput()
     if deci=="end":
         print("Ending program")
